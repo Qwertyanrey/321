@@ -1,45 +1,69 @@
+Новое содержимое уже сохранено в файле на вашем компьютере:
+
+Путь к файлу:
+
+D:\portfolio\components\Projects.tsx
+Как загрузить изменения на GitHub:
+Способ 1: Через командную строку (если установлен Git)
+cd /d D:\portfolio
+git add .
+git commit -m "Update projects"
+git push
+Способ 2: Через браузер GitHub (без Git)
+Откройте файл по ссылке:
+https://github.com/Qwertyanrey/321/blob/main/components/Projects.tsx
+
+Нажмите на значок карандаша ✏️ (Edit this file)
+
+Удалите всё старое содержимое и вставьте новое (я покажу его ниже)
+
+Нажмите Commit changes
+
+Новое содержимое файла Projects.tsx:
+Скопируйте этот код и вставьте в файл на GitHub:
+
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "Интернет-магазин с полной функциональностью: корзина, оплата, админ-панель",
-    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Интернет-магазин электроники",
+    description: "Полнофункциональный интернет-магазин с каталогом товаров, корзиной, оформлением заказа и интеграцией платёжной системы Stripe. Админ-панель для управления товарами и заказами.",
+    technologies: ["Next.js", "TypeScript", "Stripe", "PostgreSQL", "Prisma"],
+    demoUrl: "https://example-store.com",
+    githubUrl: "https://github.com/Qwertyanrey/ecommerce-store"
   },
   {
-    title: "Task Manager",
-    description: "Приложение для управления задачами с реальным временем обновлений",
-    technologies: ["React", "Node.js", "Socket.io", "MongoDB"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Менеджер задач с реальным временем",
+    description: "Приложение для управления проектами и задачами в команде. Поддержка досок Kanban, чатов, уведомлений и совместной работы в реальном времени через WebSocket.",
+    technologies: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
+    demoUrl: "https://example-taskmanager.com",
+    githubUrl: "https://github.com/Qwertyanrey/task-manager"
   },
   {
-    title: "Weather Dashboard",
-    description: "Панель мониторинга погоды с интеграцией внешних API",
-    technologies: ["Next.js", "Tailwind CSS", "OpenWeather API"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Панель мониторинга погоды",
+    description: "Интерактивное приложение для отслеживания погоды в разных городах мира. Прогноз на 7 дней, карты осадков, уведомления о неблагоприятных условиях.",
+    technologies: ["Next.js", "Tailwind CSS", "OpenWeather API", "Chart.js"],
+    demoUrl: "https://example-weather.com",
+    githubUrl: "https://github.com/Qwertyanrey/weather-dashboard"
   },
   {
-    title: "Social Network",
-    description: "Социальная платформа с публикацией постов и сообщениями",
-    technologies: ["React", "GraphQL", "Node.js", "PostgreSQL"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Социальная платформа для разработчиков",
+    description: "Социальная сеть для IT-специалистов. Публикация статей, обсуждение проектов, поиск работы, технический блог, система рейтингов и достижений.",
+    technologies: ["React", "GraphQL", "Node.js", "PostgreSQL", "Apollo"],
+    demoUrl: "https://example-devsocial.com",
+    githubUrl: "https://github.com/Qwertyanrey/dev-social"
   },
   {
-    title: "Portfolio Website",
-    description: "Шаблон портфолио для разработчиков с SEO оптимизацией",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Корпоративный портал",
+    description: "Внутренний портал компании для сотрудников. Расписание встреч, бронирование переговорных, база знаний, объявления, интеграция с календарём.",
+    technologies: ["Next.js", "TypeScript", "Microsoft Graph API", "Azure AD"],
+    demoUrl: "https://example-portal.com",
+    githubUrl: "https://github.com/Qwertyanrey/corporate-portal"
   },
   {
-    title: "Chat Application",
-    description: "Мессенджер с поддержкой групповых чатов и файлами",
-    technologies: ["React", "Firebase", "Material UI"],
-    demoUrl: "#",
-    githubUrl: "#"
+    title: "Бот для Telegram с AI",
+    description: "Умный чат-бот для автоматической поддержки клиентов. Интеграция с ChatGPT, база знаний компании, эскалация на оператора, аналитика диалогов.",
+    technologies: ["Node.js", "Telegraf", "OpenAI API", "Redis", "Docker"],
+    demoUrl: "https://t.me/example-bot",
+    githubUrl: "https://github.com/Qwertyanrey/telegram-ai-bot"
   }
 ];
 
